@@ -8,10 +8,25 @@
     <ClCompile Include="src\Tools\StringBuilder.cpp">
       <Filter>Tools</Filter>
     </ClCompile>
+    <ClCompile Include="src\Scene\Scene.cpp">
+      <Filter>SceneLib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Scene\SceneManager.cpp">
+      <Filter>SceneLib</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TopMenu\TopMenuScene.cpp">
+      <Filter>TopMenu</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Tools">
       <UniqueIdentifier>{dfa11146-2f7f-4ce1-b5d2-486791cdd798}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SceneLib">
+      <UniqueIdentifier>{1642e50e-c6a0-40c2-8550-cb2fe7e83ad4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TopMenu">
+      <UniqueIdentifier>{1e346191-29a6-4641-9a73-586e0c2016d2}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -20,6 +35,15 @@
     </ClInclude>
     <ClInclude Include="src\Tools\StringBuilder.h">
       <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Scene\Scene.h">
+      <Filter>SceneLib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Scene\SceneManager.h">
+      <Filter>SceneLib</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TopMenu\TopMenuScene.h">
+      <Filter>TopMenu</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

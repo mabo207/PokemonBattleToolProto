@@ -1,7 +1,12 @@
-#include<iostream>
+#include <iostream>
+#include "TopMenu/TopMenuScene.h"
+#include "Scene/SceneManager.h"
 
 int main()
 {
-	std::cout << "Hello world" << std::endl;
+	SceneLib::SceneManager sceneManager(new TopMenu::TopMenuScene());
+	while (sceneManager.Update())
+	{
+	}
 	return 0;
 }
